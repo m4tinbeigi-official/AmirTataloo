@@ -1,27 +1,40 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #121212; /* رنگ پس زمینه مشکی */
+    color: #fff; /* متن سفید */
+    font-family: 'Vazir', sans-serif; /* استفاده از فونت وزیر */
 }
 
 .card {
     border: none;
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    background-color: #2c2c2c; /* رنگ کارت مشکی تیره */
 }
 
 .card-title {
     text-align: center;
     margin-bottom: 20px;
+    color: #ff4757; /* رنگ عنوان قرمز */
 }
 
 .list-group-item {
     cursor: pointer;
+    background-color: #343a40; /* رنگ آیتم‌ها مشکی */
+    color: #fff; /* متن سفید */
 }
 
 .list-group-item:hover {
-    background-color: #007bff;
+    background-color: #ff4757; /* رنگ hover قرمز */
     color: white;
 }
 
 input[type="text"] {
     margin-bottom: 20px;
+    background-color: #444; /* رنگ پس زمینه کادر جستجو */
+    color: #fff; /* متن سفید */
+    border: 1px solid #ff4757; /* حاشیه قرمز */
+}
+
+input[type="text"]::placeholder {
+    color: #fff; /* رنگ متن placeholder سفید */
 }
